@@ -1,15 +1,20 @@
 import React from "react";
-import Categories from "./components/Categories";
+import Categories from "@/app/components/Categories"; // Ensure correct import
 
-const page = () => {
+const Page = () => {
   return (
     <div className="flex flex-row w-full">
-      <div className="w-1/4">
+      {/* Sidebar */}
+      <div className="w-[15%] min-w-[180px]">
         <Categories />
       </div>
 
-      <div className="w-3/4 p-4">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad corrupti
+      {/* Border Divider */}
+      <div className="border-l border-gray-500 h-screen"></div>
+
+      {/* Main Content */}
+      <div className="w-[85%] p-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corrupti
         veritatis adipisci voluptatem, culpa harum commodi ducimus labore
         mollitia, illo recusandae eius cumque quam praesentium dolore maiores
         reiciendis eaque! Dolorem! Lorem ipsum dolor sit amet consectetur,
@@ -21,4 +26,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
