@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import {Bell, Sparkles, Search, Grid2x2Plus,Flame ,Zap} from "lucide-react";
 
+
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-16 bg-black text-white relative shadow-sm font-mono border-b border-gray-500 px-4">
@@ -50,7 +51,7 @@ const Navbar = () => {
                 <p>0</p>
             </div>
             <div className="text-purple-500 flex items-center gap-1">
-            <Zap size={24} className="text-purple-500" />
+            <Zap size={22} className="text-purple-500" />
             <p>2</p>
             </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Categories from "@/app/components/Categories"; // Ensure correct import
+import Categories from "@/components/Categories"; // Ensure correct import
 
 const Page = () => {
   return (
