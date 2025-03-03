@@ -1,5 +1,6 @@
 import React from "react";
-import Categories from "@/components/Categories"; // Ensure correct import
+import Categories from "@/components/Categories"; //category component
+import MainList from "@/components/MainList"; //main list component
 
 const Page = () => {
   return (
@@ -14,13 +15,8 @@ const Page = () => {
 
       {/* Main Content */}
       <div className="w-[85%] p-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad corrupti
-        veritatis adipisci voluptatem, culpa harum commodi ducimus labore
-        mollitia, illo recusandae eius cumque quam praesentium dolore maiores
-        reiciendis eaque! Dolorem! Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Cum voluptas dolorum dignissimos maiores possimus unde
-        ipsum, doloremque voluptate omnis natus incidunt rerum dolorem neque
-        nulla laudantium vitae, facilis repellendus placeat.
+        <MainList />
+       
       </div>
     </div>
   );
