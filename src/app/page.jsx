@@ -4,7 +4,7 @@ import MainList from "@/components/MainList"; //main list component
 
 const Page = () => {
   return (
-    <div className="flex flex-row w-full">
+    <div className="flex flex-row w-full bg-black">
       {/* Sidebar */}
       <div className="w-[15%] min-w-[180px]">
         <Categories />
